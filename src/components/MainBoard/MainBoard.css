@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.MainBoard .out-background {
+    background-color: #9EC75D;
+    width: 1024px;
+    height: 600px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.MainBoard .inside-background {
+    background-color: white;
+    border-radius: 7px;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+    margin: 0 20px;
+    width: 954px;
+    height: 363px;
+    display: flex;
+    flex-direction: row;
+}
+.MainBoard .login_btn {
+    top: 450px;
+    left: 660px;
+    height: 40px;
+    z-index: 99999;
+    width: 305px;
+}
